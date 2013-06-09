@@ -1,0 +1,167 @@
+#days
+{
+	width:100%;
+	height:auto;
+	min-height:100%;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    margin-top: 0;
+	color:white;
+}
+#heading{
+	text-align:center;
+	color:white;
+	font-size:35px;
+	padding:20px;
+	
+}
+#heading1{
+	text-align:center;
+	color:white;
+	font-size:35px;
+	padding:20px;
+	
+}
+.site_back
+{
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(../images/back2.gif) no-repeat 0 0 transparent;
+    height: 768px;
+    width: 1024px;
+	position:fixed;
+	z-index:-10;
+}
+.site-wrapper1{
+	margin-left:auto;
+	margin-right:auto;
+	
+    height: 768px;
+    width: 1024px;
+}
+#asso_spon{
+	margin-top:20px;
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+#logo{
+	height:100px;
+	margin-top:20px;
+}
+#img{
+	//width:33%;
+	float:left;
+	margin-left:200px;
+}
+#img5{
+	float:left;
+	margin-left:70px;
+}
+#co-founder{
+	margin-top:50px;
+	width:1000px;
+	height:350px;
+	margin-left:30px;
+}
+#technical{
+	margin-top:-20px;
+	width:660px;
+	margin-left:180px;
+	height:350px;
+}
+.co-founder,.technical{
+	float:left;
+}
+
+.front {
+    height: 300px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 250px;
+	-moz-transform: skew(0deg, 0deg) scale(1, 1);
+    display: block;
+}
+
+.back {
+	 z-index: 10;
+	 -moz-transform: skew(0deg, 0deg) scale(1, 1);
+    display: none;
+    left: 0;
+	overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 250px;
+	height: 300px;
+}
+
+.flipper {
+    background-position: 0 -470px;
+    bottom: -63px;
+    height: 62px;
+    position: absolute;
+    right: -63px;
+    width: 63px;
+    z-index: 100;
+	display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+#nav-list-example li {
+    width:200px;
+	height:300px;
+    float: left;
+    position: relative;
+	list-style:none;
+	margin-right:34px;
+}
+
+#nav-list-example li div {
+    width:200px;
+	height:300px;
+    overflow: hidden;
+    //background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#nav-list-example li div.back {
+    left: -999em;
+    background: #999;
+}
+#eve_names{
+	margin-top:20px;
+	color:white;
+	font-size:25px;
+	margin-left:100px;
+}
+#table{
+	width:100%;
+	margin-top:30px;
+}
+#table1{
+	width:100%;
+	margin-top:30px;
+}
+#row{
+	width:100%;
+	height:30px;
+}
+.row{
+	float:left;
+}
+#name{
+	width:300px;
+	margin-left:120px;
+}
+#time{
+	width:300px;
+}
+#venue{
+	width:300px;
+}
